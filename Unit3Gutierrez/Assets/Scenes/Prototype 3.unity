@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9024d0af3f00a704694cd7fac926564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 15
+  jumpForce: 20
   gravityModifier: 5
   isOnGround: 1
   gameOver: 0
@@ -609,24 +609,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.79999, y: 18.836718, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1312221187 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3156275879459742600, guid: b4eef93b71f89364d9242a52033fb416, type: 3}
-  m_PrefabInstance: {fileID: 7828672622665569549}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1312221188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312221187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3100a9a4f89bd97478e8240d794494df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 3156275879459742600, guid: b4eef93b71f89364d9242a52033fb416, type: 3}
 --- !u!1 &2014335011
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,5 +762,5 @@ PrefabInstance:
       value: Prob_Rock_Boulder_01
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: -6448002030547176762, guid: b4eef93b71f89364d9242a52033fb416, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b4eef93b71f89364d9242a52033fb416, type: 3}
