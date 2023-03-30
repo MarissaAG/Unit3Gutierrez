@@ -255,7 +255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327670990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.9465413, y: 3.175383, z: 6.4536285}
+  m_LocalPosition: {x: 6.9465413, y: 3.175383, z: 10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07601805
+      value: 0.076661244
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -375,23 +375,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.006305459
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7557871
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6548175
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 81.812
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -407,15 +407,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05714597
+      value: 0.02922304
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.025489476
+      value: -0.14782843
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9132589
+      value: 0.19391951
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -423,7 +423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4073797
+      value: 0.9810175
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433730, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 48.081
+      value: 157.637
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03ffd135f81a3fb4cb6f2e6e944f979d, type: 3}
@@ -481,8 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9024d0af3f00a704694cd7fac926564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 20
-  gravityModifier: 5
+  jumpForce: 7
+  gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
 --- !u!1 &835818919
